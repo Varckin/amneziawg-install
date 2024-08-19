@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # AmneziaWG server installer
-# https://github.com/Varckin/AmneziaWG-Install
+# https://github.com/varckin/AmneziaWG-Install
 
 RED='\033[0;31m'
 ORANGE='\033[0;33m'
@@ -152,7 +152,7 @@ function readH1AndH2AndH3AndH4() {
 }
 
 function installQuestions() {
-	echo "AmneziaWG server installer (https://github.com/Varckin/AmneziaWG-Install)"
+	echo "AmneziaWG server installer (https://github.com/varckin/AmneziaWG-Install)"
 	echo ""
 	echo "I need to ask you a few questions before starting the setup."
 	echo "You can keep the default options and just press enter if you are ok with them."
@@ -604,7 +604,7 @@ function loadParams() {
 }
 
 function manageMenu() {
-	echo "AmneziaWG server installer (https://github.com/Varckin/AmneziaWG-Install)"
+	echo "AmneziaWG server installer (https://github.com/varckin/AmneziaWG-Install)"
 	echo ""
 	echo "It looks like AmneziaWG is already installed."
 	echo ""
